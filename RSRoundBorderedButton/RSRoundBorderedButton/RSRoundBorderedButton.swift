@@ -1,9 +1,9 @@
 //
 //  RSRoundBorderedButton.swift
-//  Credits: https://github.com/yhpark/YHRoundBorderedButton
+//  RSRoundBorderedButton
 //
-//  Created by Matthias Fey on 03.02.15.
-//  Copyright (c) 2015 Rusty1s. All rights reserved.
+//  Created by Matthias Fey on 20.05.15.
+//  Copyright (c) 2015 Matthias Fey. All rights reserved.
 //
 
 import UIKit
@@ -20,7 +20,7 @@ public class RSRoundBorderedButton : UIButton {
         super.init(frame: frame)
         setup()
     }
-
+    
     public required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setup()
@@ -47,34 +47,34 @@ public class RSRoundBorderedButton : UIButton {
     // MARK: Override
     
     public override var tintColor: UIColor? {
-    set(newTintColor) {
-        super.tintColor = newTintColor
-        setTitleColor(newTintColor, forState: .Normal)
-        refreshBorderColor()
-    }
-    get { return super.tintColor }
+        set(newTintColor) {
+            super.tintColor = newTintColor
+            setTitleColor(newTintColor, forState: .Normal)
+            refreshBorderColor()
+        }
+        get { return super.tintColor }
     }
     
     public override var enabled: Bool {
-    set(newEnabled) {
-        super.enabled = newEnabled
-        refreshBorderColor()
-    }
-    get { return super.enabled }
+        set(newEnabled) {
+            super.enabled = newEnabled
+            refreshBorderColor()
+        }
+        get { return super.enabled }
     }
     
     public override var highlighted: Bool {
-    set(newHighlighted) {
-        if highlighted != newHighlighted {
-            super.highlighted = newHighlighted
-            
-            UIView.animateWithDuration(0.25) {
-                self.layer.backgroundColor = self.highlighted ? self.tintColor?.CGColor : UIColor.whiteColor().CGColor
+        set(newHighlighted) {
+            if highlighted != newHighlighted {
+                super.highlighted = newHighlighted
+                
+                UIView.animateWithDuration(0.25) {
+                    self.layer.backgroundColor = self.highlighted ? self.tintColor?.CGColor : UIColor.whiteColor().CGColor
+                }
+                
+                setNeedsDisplay()
             }
-            
-            setNeedsDisplay()
         }
-    }
-    get { return super.highlighted }
+        get { return super.highlighted }
     }
 }

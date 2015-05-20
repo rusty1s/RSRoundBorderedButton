@@ -7,101 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		61CECF351B0D07FE007BB599 /* RSRoundBorderedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 61CECF341B0D07FE007BB599 /* RSRoundBorderedButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61CECF3B1B0D07FE007BB599 /* RSRoundBorderedButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CECF2F1B0D07FE007BB599 /* RSRoundBorderedButton.framework */; };
-		61CECF421B0D07FE007BB599 /* RSRoundBorderedButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CECF411B0D07FE007BB599 /* RSRoundBorderedButtonTests.swift */; };
-		61CECF4C1B0D0815007BB599 /* RSRoundBorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CECF4B1B0D0815007BB599 /* RSRoundBorderedButton.swift */; };
-		61CECF4D1B0D0890007BB599 /* RSRoundBorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CECF4B1B0D0815007BB599 /* RSRoundBorderedButton.swift */; };
+		61CECF8C1B0D319A007BB599 /* RSRoundBorderedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 61CECF8B1B0D319A007BB599 /* RSRoundBorderedButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61CECF921B0D319A007BB599 /* RSRoundBorderedButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CECF861B0D319A007BB599 /* RSRoundBorderedButton.framework */; };
+		61CECF991B0D319A007BB599 /* RSRoundBorderedButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CECF981B0D319A007BB599 /* RSRoundBorderedButtonTests.swift */; };
+		61CECFA31B0D31C8007BB599 /* RSRoundBorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CECFA21B0D31C8007BB599 /* RSRoundBorderedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		61CECF3C1B0D07FE007BB599 /* PBXContainerItemProxy */ = {
+		61CECF931B0D319A007BB599 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 61CECF261B0D07FE007BB599 /* Project object */;
+			containerPortal = 61CECF7D1B0D319A007BB599 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 61CECF2E1B0D07FE007BB599;
+			remoteGlobalIDString = 61CECF851B0D319A007BB599;
 			remoteInfo = RSRoundBorderedButton;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		61CECF2F1B0D07FE007BB599 /* RSRoundBorderedButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSRoundBorderedButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		61CECF331B0D07FE007BB599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61CECF341B0D07FE007BB599 /* RSRoundBorderedButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSRoundBorderedButton.h; sourceTree = "<group>"; };
-		61CECF3A1B0D07FE007BB599 /* RSRoundBorderedButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSRoundBorderedButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		61CECF401B0D07FE007BB599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61CECF411B0D07FE007BB599 /* RSRoundBorderedButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSRoundBorderedButtonTests.swift; sourceTree = "<group>"; };
-		61CECF4B1B0D0815007BB599 /* RSRoundBorderedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSRoundBorderedButton.swift; sourceTree = "<group>"; };
+		61CECF861B0D319A007BB599 /* RSRoundBorderedButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSRoundBorderedButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CECF8A1B0D319A007BB599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61CECF8B1B0D319A007BB599 /* RSRoundBorderedButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSRoundBorderedButton.h; sourceTree = "<group>"; };
+		61CECF911B0D319A007BB599 /* RSRoundBorderedButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSRoundBorderedButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CECF971B0D319A007BB599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61CECF981B0D319A007BB599 /* RSRoundBorderedButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSRoundBorderedButtonTests.swift; sourceTree = "<group>"; };
+		61CECFA21B0D31C8007BB599 /* RSRoundBorderedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSRoundBorderedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		61CECF2B1B0D07FE007BB599 /* Frameworks */ = {
+		61CECF821B0D319A007BB599 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61CECF371B0D07FE007BB599 /* Frameworks */ = {
+		61CECF8E1B0D319A007BB599 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61CECF3B1B0D07FE007BB599 /* RSRoundBorderedButton.framework in Frameworks */,
+				61CECF921B0D319A007BB599 /* RSRoundBorderedButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		61CECF251B0D07FE007BB599 = {
+		61CECF7C1B0D319A007BB599 = {
 			isa = PBXGroup;
 			children = (
-				61CECF311B0D07FE007BB599 /* RSRoundBorderedButton */,
-				61CECF3E1B0D07FE007BB599 /* RSRoundBorderedButtonTests */,
-				61CECF301B0D07FE007BB599 /* Products */,
+				61CECF881B0D319A007BB599 /* RSRoundBorderedButton */,
+				61CECF951B0D319A007BB599 /* RSRoundBorderedButtonTests */,
+				61CECF871B0D319A007BB599 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		61CECF301B0D07FE007BB599 /* Products */ = {
+		61CECF871B0D319A007BB599 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				61CECF2F1B0D07FE007BB599 /* RSRoundBorderedButton.framework */,
-				61CECF3A1B0D07FE007BB599 /* RSRoundBorderedButtonTests.xctest */,
+				61CECF861B0D319A007BB599 /* RSRoundBorderedButton.framework */,
+				61CECF911B0D319A007BB599 /* RSRoundBorderedButtonTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		61CECF311B0D07FE007BB599 /* RSRoundBorderedButton */ = {
+		61CECF881B0D319A007BB599 /* RSRoundBorderedButton */ = {
 			isa = PBXGroup;
 			children = (
-				61CECF4B1B0D0815007BB599 /* RSRoundBorderedButton.swift */,
-				61CECF341B0D07FE007BB599 /* RSRoundBorderedButton.h */,
-				61CECF321B0D07FE007BB599 /* Supporting Files */,
+				61CECF8B1B0D319A007BB599 /* RSRoundBorderedButton.h */,
+				61CECFA21B0D31C8007BB599 /* RSRoundBorderedButton.swift */,
+				61CECF891B0D319A007BB599 /* Supporting Files */,
 			);
 			path = RSRoundBorderedButton;
 			sourceTree = "<group>";
 		};
-		61CECF321B0D07FE007BB599 /* Supporting Files */ = {
+		61CECF891B0D319A007BB599 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				61CECF331B0D07FE007BB599 /* Info.plist */,
+				61CECF8A1B0D319A007BB599 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		61CECF3E1B0D07FE007BB599 /* RSRoundBorderedButtonTests */ = {
+		61CECF951B0D319A007BB599 /* RSRoundBorderedButtonTests */ = {
 			isa = PBXGroup;
 			children = (
-				61CECF411B0D07FE007BB599 /* RSRoundBorderedButtonTests.swift */,
-				61CECF3F1B0D07FE007BB599 /* Supporting Files */,
+				61CECF981B0D319A007BB599 /* RSRoundBorderedButtonTests.swift */,
+				61CECF961B0D319A007BB599 /* Supporting Files */,
 			);
 			path = RSRoundBorderedButtonTests;
 			sourceTree = "<group>";
 		};
-		61CECF3F1B0D07FE007BB599 /* Supporting Files */ = {
+		61CECF961B0D319A007BB599 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				61CECF401B0D07FE007BB599 /* Info.plist */,
+				61CECF971B0D319A007BB599 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -109,25 +108,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		61CECF2C1B0D07FE007BB599 /* Headers */ = {
+		61CECF831B0D319A007BB599 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61CECF351B0D07FE007BB599 /* RSRoundBorderedButton.h in Headers */,
+				61CECF8C1B0D319A007BB599 /* RSRoundBorderedButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		61CECF2E1B0D07FE007BB599 /* RSRoundBorderedButton */ = {
+		61CECF851B0D319A007BB599 /* RSRoundBorderedButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61CECF451B0D07FE007BB599 /* Build configuration list for PBXNativeTarget "RSRoundBorderedButton" */;
+			buildConfigurationList = 61CECF9C1B0D319A007BB599 /* Build configuration list for PBXNativeTarget "RSRoundBorderedButton" */;
 			buildPhases = (
-				61CECF2A1B0D07FE007BB599 /* Sources */,
-				61CECF2B1B0D07FE007BB599 /* Frameworks */,
-				61CECF2C1B0D07FE007BB599 /* Headers */,
-				61CECF2D1B0D07FE007BB599 /* Resources */,
+				61CECF811B0D319A007BB599 /* Sources */,
+				61CECF821B0D319A007BB599 /* Frameworks */,
+				61CECF831B0D319A007BB599 /* Headers */,
+				61CECF841B0D319A007BB599 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -135,71 +134,71 @@
 			);
 			name = RSRoundBorderedButton;
 			productName = RSRoundBorderedButton;
-			productReference = 61CECF2F1B0D07FE007BB599 /* RSRoundBorderedButton.framework */;
+			productReference = 61CECF861B0D319A007BB599 /* RSRoundBorderedButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		61CECF391B0D07FE007BB599 /* RSRoundBorderedButtonTests */ = {
+		61CECF901B0D319A007BB599 /* RSRoundBorderedButtonTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61CECF481B0D07FE007BB599 /* Build configuration list for PBXNativeTarget "RSRoundBorderedButtonTests" */;
+			buildConfigurationList = 61CECF9F1B0D319A007BB599 /* Build configuration list for PBXNativeTarget "RSRoundBorderedButtonTests" */;
 			buildPhases = (
-				61CECF361B0D07FE007BB599 /* Sources */,
-				61CECF371B0D07FE007BB599 /* Frameworks */,
-				61CECF381B0D07FE007BB599 /* Resources */,
+				61CECF8D1B0D319A007BB599 /* Sources */,
+				61CECF8E1B0D319A007BB599 /* Frameworks */,
+				61CECF8F1B0D319A007BB599 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				61CECF3D1B0D07FE007BB599 /* PBXTargetDependency */,
+				61CECF941B0D319A007BB599 /* PBXTargetDependency */,
 			);
 			name = RSRoundBorderedButtonTests;
 			productName = RSRoundBorderedButtonTests;
-			productReference = 61CECF3A1B0D07FE007BB599 /* RSRoundBorderedButtonTests.xctest */;
+			productReference = 61CECF911B0D319A007BB599 /* RSRoundBorderedButtonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		61CECF261B0D07FE007BB599 /* Project object */ = {
+		61CECF7D1B0D319A007BB599 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Matthias Fey";
 				TargetAttributes = {
-					61CECF2E1B0D07FE007BB599 = {
+					61CECF851B0D319A007BB599 = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
-					61CECF391B0D07FE007BB599 = {
+					61CECF901B0D319A007BB599 = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 61CECF291B0D07FE007BB599 /* Build configuration list for PBXProject "RSRoundBorderedButton" */;
+			buildConfigurationList = 61CECF801B0D319A007BB599 /* Build configuration list for PBXProject "RSRoundBorderedButton" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 61CECF251B0D07FE007BB599;
-			productRefGroup = 61CECF301B0D07FE007BB599 /* Products */;
+			mainGroup = 61CECF7C1B0D319A007BB599;
+			productRefGroup = 61CECF871B0D319A007BB599 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				61CECF2E1B0D07FE007BB599 /* RSRoundBorderedButton */,
-				61CECF391B0D07FE007BB599 /* RSRoundBorderedButtonTests */,
+				61CECF851B0D319A007BB599 /* RSRoundBorderedButton */,
+				61CECF901B0D319A007BB599 /* RSRoundBorderedButtonTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		61CECF2D1B0D07FE007BB599 /* Resources */ = {
+		61CECF841B0D319A007BB599 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61CECF381B0D07FE007BB599 /* Resources */ = {
+		61CECF8F1B0D319A007BB599 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -209,35 +208,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		61CECF2A1B0D07FE007BB599 /* Sources */ = {
+		61CECF811B0D319A007BB599 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61CECF4C1B0D0815007BB599 /* RSRoundBorderedButton.swift in Sources */,
+				61CECFA31B0D31C8007BB599 /* RSRoundBorderedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61CECF361B0D07FE007BB599 /* Sources */ = {
+		61CECF8D1B0D319A007BB599 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61CECF4D1B0D0890007BB599 /* RSRoundBorderedButton.swift in Sources */,
-				61CECF421B0D07FE007BB599 /* RSRoundBorderedButtonTests.swift in Sources */,
+				61CECF991B0D319A007BB599 /* RSRoundBorderedButtonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		61CECF3D1B0D07FE007BB599 /* PBXTargetDependency */ = {
+		61CECF941B0D319A007BB599 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 61CECF2E1B0D07FE007BB599 /* RSRoundBorderedButton */;
-			targetProxy = 61CECF3C1B0D07FE007BB599 /* PBXContainerItemProxy */;
+			target = 61CECF851B0D319A007BB599 /* RSRoundBorderedButton */;
+			targetProxy = 61CECF931B0D319A007BB599 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		61CECF431B0D07FE007BB599 /* Debug */ = {
+		61CECF9A1B0D319A007BB599 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,7 +283,7 @@
 			};
 			name = Debug;
 		};
-		61CECF441B0D07FE007BB599 /* Release */ = {
+		61CECF9B1B0D319A007BB599 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -326,7 +324,7 @@
 			};
 			name = Release;
 		};
-		61CECF461B0D07FE007BB599 /* Debug */ = {
+		61CECF9D1B0D319A007BB599 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -337,14 +335,13 @@
 				INFOPLIST_FILE = RSRoundBorderedButton/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		61CECF471B0D07FE007BB599 /* Release */ = {
+		61CECF9E1B0D319A007BB599 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -355,13 +352,12 @@
 				INFOPLIST_FILE = RSRoundBorderedButton/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		61CECF491B0D07FE007BB599 /* Debug */ = {
+		61CECFA01B0D319A007BB599 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -378,7 +374,7 @@
 			};
 			name = Debug;
 		};
-		61CECF4A1B0D07FE007BB599 /* Release */ = {
+		61CECFA11B0D319A007BB599 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -394,34 +390,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		61CECF291B0D07FE007BB599 /* Build configuration list for PBXProject "RSRoundBorderedButton" */ = {
+		61CECF801B0D319A007BB599 /* Build configuration list for PBXProject "RSRoundBorderedButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				61CECF431B0D07FE007BB599 /* Debug */,
-				61CECF441B0D07FE007BB599 /* Release */,
+				61CECF9A1B0D319A007BB599 /* Debug */,
+				61CECF9B1B0D319A007BB599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		61CECF451B0D07FE007BB599 /* Build configuration list for PBXNativeTarget "RSRoundBorderedButton" */ = {
+		61CECF9C1B0D319A007BB599 /* Build configuration list for PBXNativeTarget "RSRoundBorderedButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				61CECF461B0D07FE007BB599 /* Debug */,
-				61CECF471B0D07FE007BB599 /* Release */,
+				61CECF9D1B0D319A007BB599 /* Debug */,
+				61CECF9E1B0D319A007BB599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		61CECF481B0D07FE007BB599 /* Build configuration list for PBXNativeTarget "RSRoundBorderedButtonTests" */ = {
+		61CECF9F1B0D319A007BB599 /* Build configuration list for PBXNativeTarget "RSRoundBorderedButtonTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				61CECF491B0D07FE007BB599 /* Debug */,
-				61CECF4A1B0D07FE007BB599 /* Release */,
+				61CECFA01B0D319A007BB599 /* Debug */,
+				61CECFA11B0D319A007BB599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 61CECF261B0D07FE007BB599 /* Project object */;
+	rootObject = 61CECF7D1B0D319A007BB599 /* Project object */;
 }
