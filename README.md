@@ -4,7 +4,7 @@
 
 All credits to the *objective-c version*: https://github.com/yhpark/YHRoundBorderedButton
 
-![Example](example.png?raw=true "Example")
+![Example Button](example.png?raw=true "Example Button")
 
 ## Installation
 
