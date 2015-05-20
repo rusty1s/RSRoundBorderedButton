@@ -8,20 +8,20 @@
 
 import UIKit
 
-class RSRoundBorderedButton : UIButton {
+public class RSRoundBorderedButton : UIButton {
     
     // MARK: Initializers
     
-    convenience init() {
+    public convenience init() {
         self.init(frame: CGRectZero)
     }
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         setup()
     }
 
-    required init(coder aDecoder: NSCoder) {
+    public required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setup()
     }
@@ -46,7 +46,7 @@ class RSRoundBorderedButton : UIButton {
     
     // MARK: Override
     
-    override var tintColor: UIColor? {
+    public override var tintColor: UIColor? {
     set(newTintColor) {
         super.tintColor = newTintColor
         setTitleColor(newTintColor, forState: .Normal)
@@ -55,7 +55,7 @@ class RSRoundBorderedButton : UIButton {
     get { return super.tintColor }
     }
     
-    override var enabled: Bool {
+    public override var enabled: Bool {
     set(newEnabled) {
         super.enabled = newEnabled
         refreshBorderColor()
@@ -63,7 +63,7 @@ class RSRoundBorderedButton : UIButton {
     get { return super.enabled }
     }
     
-    override var highlighted: Bool {
+    public override var highlighted: Bool {
     set(newHighlighted) {
         if highlighted != newHighlighted {
             super.highlighted = newHighlighted
