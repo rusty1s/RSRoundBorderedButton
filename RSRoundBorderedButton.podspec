@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "RSRoundBorderedButton"
-  s.version      = "1.0"
+  s.version      = "0.1"
   s.summary      = "UIButton which mimics the AppStore Button"
 
   s.description  = <<-DESC
