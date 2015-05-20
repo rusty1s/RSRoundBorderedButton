@@ -1,6 +1,5 @@
 //
 //  RSRoundBorderedButton.h
-//  RSRoundBorderedButton
 //
 //  Created by Matthias Fey on 20.05.15.
 //  Copyright (c) 2015 Matthias Fey. All rights reserved.

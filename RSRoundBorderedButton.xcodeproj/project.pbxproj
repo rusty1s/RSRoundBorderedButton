@@ -11,6 +11,7 @@
 		61CECF3B1B0D07FE007BB599 /* RSRoundBorderedButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CECF2F1B0D07FE007BB599 /* RSRoundBorderedButton.framework */; };
 		61CECF421B0D07FE007BB599 /* RSRoundBorderedButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CECF411B0D07FE007BB599 /* RSRoundBorderedButtonTests.swift */; };
 		61CECF4C1B0D0815007BB599 /* RSRoundBorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CECF4B1B0D0815007BB599 /* RSRoundBorderedButton.swift */; };
+		61CECF4D1B0D0890007BB599 /* RSRoundBorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CECF4B1B0D0815007BB599 /* RSRoundBorderedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -220,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61CECF4D1B0D0890007BB599 /* RSRoundBorderedButton.swift in Sources */,
 				61CECF421B0D07FE007BB599 /* RSRoundBorderedButtonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,6 +337,7 @@
 				INFOPLIST_FILE = RSRoundBorderedButton/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -352,6 +355,7 @@
 				INFOPLIST_FILE = RSRoundBorderedButton/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -406,6 +410,7 @@
 				61CECF471B0D07FE007BB599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61CECF481B0D07FE007BB599 /* Build configuration list for PBXNativeTarget "RSRoundBorderedButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +419,7 @@
 				61CECF4A1B0D07FE007BB599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

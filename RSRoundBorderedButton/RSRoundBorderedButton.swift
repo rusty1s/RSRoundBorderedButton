@@ -1,5 +1,5 @@
 //
-//  RoundBorderedButton.swift
+//  RSRoundBorderedButton.swift
 //
 //  Created by Matthias Fey on 03.02.15.
 //  Copyright (c) 2015 Rusty1s. All rights reserved.
