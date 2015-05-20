@@ -1,5 +1,5 @@
 //
-//  BorderedButton.swift
+//  RoundBorderedButton.swift
 //
 //  Created by Matthias Fey on 03.02.15.
 //  Copyright (c) 2015 Rusty1s. All rights reserved.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RSBorderedButton : UIButton {
+class RSRoundBorderedButton : UIButton {
     
     // MARK: Initializers
     
