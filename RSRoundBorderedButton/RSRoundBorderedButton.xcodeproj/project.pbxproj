@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		61CECF8C1B0D319A007BB599 /* RSRoundBorderedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 61CECF8B1B0D319A007BB599 /* RSRoundBorderedButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61CECF921B0D319A007BB599 /* RSRoundBorderedButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CECF861B0D319A007BB599 /* RSRoundBorderedButton.framework */; };
-		61CECF991B0D319A007BB599 /* RSRoundBorderedButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CECF981B0D319A007BB599 /* RSRoundBorderedButtonTests.swift */; };
 		61CECFA31B0D31C8007BB599 /* RSRoundBorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CECFA21B0D31C8007BB599 /* RSRoundBorderedButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +28,6 @@
 		61CECF8B1B0D319A007BB599 /* RSRoundBorderedButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSRoundBorderedButton.h; sourceTree = "<group>"; };
 		61CECF911B0D319A007BB599 /* RSRoundBorderedButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSRoundBorderedButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61CECF971B0D319A007BB599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61CECF981B0D319A007BB599 /* RSRoundBorderedButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSRoundBorderedButtonTests.swift; sourceTree = "<group>"; };
 		61CECFA21B0D31C8007BB599 /* RSRoundBorderedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSRoundBorderedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,7 +89,6 @@
 		61CECF951B0D319A007BB599 /* RSRoundBorderedButtonTests */ = {
 			isa = PBXGroup;
 			children = (
-				61CECF981B0D319A007BB599 /* RSRoundBorderedButtonTests.swift */,
 				61CECF961B0D319A007BB599 /* Supporting Files */,
 			);
 			path = RSRoundBorderedButtonTests;
@@ -220,7 +217,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61CECF991B0D319A007BB599 /* RSRoundBorderedButtonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +402,7 @@
 				61CECF9E1B0D319A007BB599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61CECF9F1B0D319A007BB599 /* Build configuration list for PBXNativeTarget "RSRoundBorderedButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +411,7 @@
 				61CECFA11B0D319A007BB599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,7 +10,6 @@
 		61CECF5D1B0D3121007BB599 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CECF5C1B0D3121007BB599 /* AppDelegate.swift */; };
 		61CECF621B0D3121007BB599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61CECF601B0D3121007BB599 /* Main.storyboard */; };
 		61CECF641B0D3121007BB599 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61CECF631B0D3121007BB599 /* Images.xcassets */; };
-		61CECF731B0D3121007BB599 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CECF721B0D3121007BB599 /* ExampleTests.swift */; };
 		61CECFAF1B0D329C007BB599 /* RSRoundBorderedButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CECFAA1B0D3263007BB599 /* RSRoundBorderedButton.framework */; };
 		61CECFB11B0D32ED007BB599 /* RSRoundBorderedButton.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 61CECFAA1B0D3263007BB599 /* RSRoundBorderedButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -68,7 +67,6 @@
 		61CECF631B0D3121007BB599 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		61CECF6C1B0D3121007BB599 /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61CECF711B0D3121007BB599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61CECF721B0D3121007BB599 /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
 		61CECFA41B0D3263007BB599 /* RSRoundBorderedButton.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RSRoundBorderedButton.xcodeproj; path = ../RSRoundBorderedButton/RSRoundBorderedButton.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,7 +130,6 @@
 		61CECF6F1B0D3121007BB599 /* ExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				61CECF721B0D3121007BB599 /* ExampleTests.swift */,
 				61CECF701B0D3121007BB599 /* Supporting Files */,
 			);
 			path = ExampleTests;
@@ -288,7 +285,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61CECF731B0D3121007BB599 /* ExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
