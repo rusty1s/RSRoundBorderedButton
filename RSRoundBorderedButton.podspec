@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
 				   All credits to the objective-c version: https://github.com/yhpark/YHRoundBorderedButton
                    DESC
 
-  s.homepage     = "https://github.com/rusty1s"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.homepage     = "https://github.com/rusty1s/RSRoundBorderedButton"
+  s.screenshots  = "https://github.com/rusty1s/RSRoundBorderedButton/blob/master/example.png"
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
