@@ -8,7 +8,7 @@ All credits to the *objective-c version*: https://github.com/yhpark/YHRoundBorde
 
 ## Installation
 
-Not yet released on CocoaPod. Instead use
+`RSRoundBorderedButton` is not yet released on CocoaPod. Instead use
 
 ```
 use_frameworks!
